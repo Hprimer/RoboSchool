@@ -1,0 +1,58 @@
+.info_btn{
+	position: absolute;
+	top: 230px;
+	left: 1230px;
+}
+.info_circle{
+	position: absolute;
+	top: 60px;
+	left: -24px;
+	background-color: #14102414;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	text-align: center;	
+	font-size: 18px;
+	line-height: normal;
+	user-select: none; /*чтобы текст не выделялся */
+	cursor: pointer;
+	transition: background-color .5s ease, transform .5s ease;
+	z-index: 1;
+}
+.info_circle_hover{
+	transform: scale(1.15);
+	background-color: var(--red);
+	color:var(--white)
+}
+
+.info_btn_text{
+	font-family: Jost;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: var(--white)
+}
+.info_btn_text{
+	position: absolute;
+	width: 251px;
+	height: 56px;
+	/* top: 1868px;
+	left: 1295px; */
+	padding: 15px 20px 15px 20px;
+	gap: 10px;
+	border-radius: 5px ;
+	z-index: -1;
+	background-color: var(--red);
+	box-shadow: 10px 10px 7px #9e24464f;
+	transform: scale(0.5);
+	
+	transition: z-index .3s ease, transform .3s ease;
+}
+
+.info_btn_text--active{
+	z-index: 1;
+	transform: scale(1.0)
+}

@@ -1,0 +1,37 @@
+.my_navbar{
+	background-color: var(--darkpurple);
+	color: var(--white);	
+
+	position: fixed;/* если убрать на "стики" то не будет отображаться изза того что body overflow:hidden*/
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+
+	margin: 0;
+}
+
+.logo{
+	font-weight: 700;
+	margin-left: 38px;
+	margin-top: 30px;
+	font-size: 30px;
+}
+.parts{
+	width: 324px;
+	height: 32px;
+	margin-top: 30px;
+	/* margin-left: 798px; */
+	opacity: 0px;
+	text-align: center;
+	font-size: 20px;
+}
+.num{
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 48px;
+	text-align: right;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	margin-top: 30px;
+
+}

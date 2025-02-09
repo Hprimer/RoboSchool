@@ -1,0 +1,29 @@
+.girl{
+	position: absolute;
+	left: 955px;
+	top: 75px;
+}
+.girl_logo{
+	position: absolute;
+	width: 515.52px;
+	height: 917.48px;
+	/* top: 162.52px;
+
+	left: 1065.99px; */
+	z-index: 1;
+	left: 130px;
+	top: 88px;
+}
+.circle-1{
+	background-color: var(--darkpurple);
+	position: absolute;
+	width: 783px;
+	height: 783px;
+	/* top: 340.63px;
+	left: 924px; */
+
+	top:205px;
+	 
+	border-radius: 100%;
+	border: 90px solid var(--white); /* Толщина и цвет границы */
+}
