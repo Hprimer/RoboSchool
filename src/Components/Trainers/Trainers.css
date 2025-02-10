@@ -23,6 +23,7 @@
 	row-gap: 30px;
 }
 
+/*   Swiper   */
 .swiper{
 	user-select: none;
 }
@@ -32,8 +33,11 @@
 .swiper-scrollbar-drag{
 	background-color: var(--darkpurple) !important;
 }
+.swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
+	z-index: 1 !important;
+}
 
-
+/*   Slides   */
 .slide_point1{
 	height: 500px;
 	width: 360px;
@@ -64,7 +68,7 @@
 	letter-spacing: 0%;
 	color: var(--darkred);	
 	cursor: pointer;
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-bottom: 5px;
 	
 

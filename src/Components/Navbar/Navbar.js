@@ -12,6 +12,8 @@ function Navbar() {
 				<a href='#' className='col'>О школе  </a>
 				<a href='#' className='col'>Тренеры  </a>  
 				<a href='#' className='col'>Стоимость</a>
+				<a href='#' className='col'>Запись</a>
+
 			</div>
 			<div className='col num'>
 				<a href="tel:+6494461709">+7 800 800 00–00</a>

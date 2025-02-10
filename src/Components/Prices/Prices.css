@@ -1,0 +1,87 @@
+.prices{
+
+	display: inline-block; /* Подстраивается по размеру текста */
+	padding: 20px; /* При необходимости добавьте отступы */
+	margin-bottom: 90px;
+
+
+}
+.prices_head{
+	font-family: Jost;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 80px;
+	letter-spacing: 0%;
+	margin-bottom: 30px;
+}
+.cards{
+	display: flex;
+	justify-content: center;
+	gap: 100px; /* Расстояние между элементами  */
+}
+.price_card{
+	border: solid 1px var(--lightblack);
+	border-radius: 20px;
+	width: 360px;
+	height: 460px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	transition: all 0.5s ease;
+
+
+	color: var(--black);
+}
+.price_card:hover{
+	color: var(--white);
+	background-color: var(--darkpurple);
+	transform: scale(1.03, 1.15);
+
+}
+.card_head{
+	font-family: Jost;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 48px;
+	letter-spacing: 0%;
+	text-align: center;
+
+}
+.card_price{
+	font-family: Jost;
+	font-weight: 600 ;
+	font-size: 50px ;
+	line-height: 80px ;
+	text-align: center;
+
+}
+
+.card_info{
+	font-family: Jost;
+	font-weight: 400 ;
+	font-size: 18px ;
+	line-height: 28.8px ;
+	text-align: center;
+
+} 
+.card_btn{
+	font-family: Jost;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28.8px;
+
+	color: var(--white);
+	width: 80%;
+	background-color: var(--darkred);
+	height: 20%;
+	justify-content: center;
+	align-items: center;
+	display: flex;	
+	border-radius: 5px;
+	cursor: pointer;
+}
+.card_btn:hover{
+	background-color: var(--red);
+	box-shadow: 0 0 5px var(--red), 0 0 15px var(--red), 0 0 25px var(--red), 0 0 50px var(--red);
+}

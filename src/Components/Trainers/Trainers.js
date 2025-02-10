@@ -20,6 +20,7 @@ import './Trainers.css'
 function Trainers() {
 
 	const [popupActive, setPopupActive] = useState(false)
+	const [selectedTrainer, setSelectedTrainer] = useState(null); // Выбранный тренер
 
 	return (
 		<div className='container '>
@@ -36,21 +37,30 @@ function Trainers() {
 				scrollbar={{ draggable: false }}
 				
     	>
-				{trainersList.map(el =>{
+				{trainersList.map(el =>{ 
 					return (
 					<SwiperSlide key={el.id} >
 						<img className='slide_point1' src={el.image} alt={`trainer ${el.id}`} />
 						<div className='slide_point2'>{el.name}</div>
 						<div className='slide_point3'>{el.specific}</div>
-						<div className='slide_point4' onClick={() => setPopupActive(true)}>
+						<div 
+							className='slide_point4' 
+							onClick={() => {
+								setPopupActive(true);
+								setSelectedTrainer(el);
+							}}
+						>
 							<span className='SP4_red_btn'>Подробнее</span>
 						</div>
-					</SwiperSlide>)
+
+					</SwiperSlide>
+					)
 				})}
 				<SwiperBtn/>
+				<PopupWindow active={popupActive} setActive={setPopupActive} trainer={selectedTrainer}/>
+
 
     </Swiper>
-		<PopupWindow active={popupActive} setActive={setPopupActive}/>
 
 		</div>
 	)

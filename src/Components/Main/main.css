@@ -1,3 +1,5 @@
 .main{
-height: 3000px;
+max-height: 5000px;
+	/* display: grid;
+	justify-content: center; */
 }
