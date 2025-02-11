@@ -14,7 +14,7 @@
 	letter-spacing: 0%;
 	margin-bottom: 30px;
 }
-.cards{
+.cards{ 
 	display: flex;
 	justify-content: center;
 	gap: 100px; /* Расстояние между элементами  */

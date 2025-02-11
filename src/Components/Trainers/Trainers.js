@@ -11,7 +11,7 @@ import 'swiper/css/scrollbar';
 
 
 import SwiperBtn from '../utils/SwiperBtn/SwiperBtn'
-import PopupWindow from '../popupWindow/PopupWindow';
+import PopupWindow from '../utils/popupWindow/PopupWindow'; 
 import trainersList from './trainersList'
 
 import './Trainers.css'
@@ -23,7 +23,7 @@ function Trainers() {
 	const [selectedTrainer, setSelectedTrainer] = useState(null); // Выбранный тренер
 
 	return (
-		<div className='container '>
+		<section className='container ' id='trainers'>
 			<div className='train_head'>Профессиональные тренеры</div>
 			<Swiper
 				className='swiper'
@@ -62,7 +62,7 @@ function Trainers() {
 
     </Swiper>
 
-		</div>
+		</section>
 	)
 }
 

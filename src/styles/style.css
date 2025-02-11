@@ -55,10 +55,14 @@ body, html{
   font-style: normal !important;
 }
 
+
 a, a,link, a:visited{
 	color: inherit;
 	text-decoration: none;
 }
+/* .container{
+	margin: 0 auto !important; 
+} */
 .row{
 	margin-left: 0;
 	margin-right: 0;

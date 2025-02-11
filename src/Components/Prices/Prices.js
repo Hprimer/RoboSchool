@@ -4,7 +4,7 @@ import './Prices.css'
 
 function Prices() {
 	return (
-		<div className=' prices '>
+		<section className=' prices ' id='prices'>
 			<div className='prices_head '>Выберите нужный пакет</div>
 			<div className='row cards'>
 				<div className='col-3 price_card '>
@@ -27,7 +27,7 @@ function Prices() {
 				</div>		
 			</div>
 
-		</div>
+		</section>
 	)
 }
 

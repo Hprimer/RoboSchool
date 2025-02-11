@@ -1,5 +1,15 @@
-.main{
+/* .main{
 max-height: 5000px;
 	/* display: grid;
-	justify-content: center; */
+	justify-content: center; 
+} */
+
+
+/* new  */
+
+.main {
+	/* max-height: 5000px; */
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }

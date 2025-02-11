@@ -115,5 +115,7 @@ letter-spacing: 0%;
 	font-size: 20px;
 	line-height: 32px;
 	letter-spacing: 0%;
-	
+	border-top: solid 1px #141024;
+	margin-top: 10px;
+
 }

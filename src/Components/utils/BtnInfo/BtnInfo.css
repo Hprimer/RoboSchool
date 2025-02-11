@@ -1,12 +1,12 @@
 .info_btn{
 	position: absolute;
-	top: 230px;
-	left: 1230px;
+	left: 103px;
+	top: -6px;
 }
 .info_circle{
-	position: absolute;
+	/* position: absolute;
 	top: 60px;
-	left: -24px;
+	left: -24px; */
 	background-color: #14102414;
 	border-radius: 50%;
 	width: 24px;
@@ -37,6 +37,9 @@
 }
 .info_btn_text{
 	position: absolute;
+	top: -60px;
+	left: 13px;
+
 	width: 251px;
 	height: 56px;
 	/* top: 1868px;
