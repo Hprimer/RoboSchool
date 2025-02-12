@@ -43,7 +43,7 @@ function After_course() {
 	return (
 		<section className='A_c'>
 			<div className='container '>
-				<div className='A_c_head'>
+				<div className='A_c_head title'>
 				Что вы получите после курса
 				</div>
 				

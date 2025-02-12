@@ -1,3 +1,11 @@
+
+@media (max-width: 720px) {
+	.footer_text,.foot_number{
+		text-align: center !important;
+	}
+	
+}
+
 .footer{
 	background-color: var(--darkpurple);
 	color: var(--white);
@@ -21,7 +29,7 @@ letter-spacing: 0%;
 text-align: center;
 
 }
-.number{
+.foot_number{
 	font-family: Jost;
 font-weight: 600;
 font-size: 30px;

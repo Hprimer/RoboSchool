@@ -3,25 +3,7 @@ html, body {margin: 0; padding: 0; overflow-x:hidden} /*чтобы нормал�
 /* если убрать navbar собъется*/
 
 :root{
-	/* --blackpure: #000;
-	--black-border: #26292d;
-	--purple: #5c62ec;
-	--nav-bg: var(--black);
-	--nav-border: var(--black-border);
 	
-	--header-bg: var(--black);
-	--header-text: var(--white);
-	--footer-bg: var(--black);
-	--footer-text: var(--white);
-	--page-bg: var(--white);
-	--text-color: var(--black);
-	--accent: var(--purple);
-	--title-1: var(--accent);
-	--project-card-bg: var(--white);
-	--project-card-text: var(--black);
-	--box-shadow: 0px 5px 35px #00000040; */
-
-
 	--white: #FFFFFF;
 	--darkpurple: #141024;
 	--black:#141024;
@@ -39,10 +21,18 @@ html, body {margin: 0; padding: 0; overflow-x:hidden} /*чтобы нормал�
 }
 
 
-/* body {
-  position: relative;
+@media (max-width:576px) {
+	.title{
+		font-size: 40px !important;
+	}
 	
-} */
+}
+@media (max-width:576px) {
+	.title{
+		font-size: 30px !important;
+	}
+	
+}
 body, html{
 	background-color: #FFFFFF;
 	color: var(--text-color);
@@ -63,16 +53,16 @@ a, a,link, a:visited{
 /* .container{
 	margin: 0 auto !important; 
 } */
-.row{
+.row,.col{
 	margin-left: 0;
 	margin-right: 0;
 
 }
-/* .col{
+.col{
 	padding-left: 0;
 	padding-right: 0;
 
-} */
+}
 /* .App{
 	position: relative;
 } */

@@ -1,10 +1,40 @@
 
+/* По умолчанию показываем первую кнопку, скрываем вторую */
+.btn-desktop {
+  display: block;
+}
+
+.btn-mobile {
+  display: none;
+	z-index: 3;
+}
+
+/* При маленьком экране скрываем первую и показываем вторую */
+@media (max-width: 992px) {
+  .btn-desktop {
+    display: none;
+  }
+
+  .btn-mobile {
+    display: block;
+		z-index: 3;
+		position: relative;
+		width: 100% !important;
+
+  }
+}
+
+
+
+
+
+
 .join_btn{
-	position: absolute;
+	/* position: absolute; */
 	width: 260px;
 	height: 79px;
-	top: 590px;
-	left: 380px;
+	/* top: 590px;
+	left: 380px; */
 	padding: 25px 54px 25px 54px;
 	gap: 10px;
 	border-radius: 5px;

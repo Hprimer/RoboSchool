@@ -4,7 +4,8 @@ import './navbar.css'
 
 function Navbar() {
 	return (
-		<div className='navbar my_navbar --nav-text row'>
+		// <div className='container'>
+		<div className=' my_navbar --nav-text row'>
 			<div className='col logo'>
 				<a href='#' className='col'>ROBO.SCHOOL</a>
 			</div>
@@ -19,6 +20,7 @@ function Navbar() {
 				<a href="tel:+78008000000">+7 800 800 00-00</a>
 			</div>
 		</div>
+		// </div>
 	)
 }
 

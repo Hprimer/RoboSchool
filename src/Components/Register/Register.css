@@ -1,3 +1,11 @@
+@media (max-width: 768px) {
+	.reg_text1,.reg_text2{
+		
+		text-align: center;
+	}
+	
+}
+
 .register-block{
 	background-color: var(--red);
 	color: var(--white);
@@ -9,12 +17,16 @@
 .reg_content{
 	margin: 50px;
 }
+.reg_text{
+	padding: 10px;
+}
 .reg_text1{
 	font-family: Jost;
 	font-weight: 600;
 	font-size: 36px;
 	line-height: 46.8px;
 	letter-spacing: 0%;
+	display: block;
 	
 }
 .reg_text2{
@@ -23,6 +35,7 @@
 	font-size: 20px;
 	line-height: 26px;
 	letter-spacing: 0%;
+	display: block;
 	
 }
 

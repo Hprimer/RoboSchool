@@ -69,6 +69,12 @@ color: var(--lightblack);
 		display: flex;
   }
 }
+@media (max-width: 576px) { 
+  .achievements-digit, .achievements-text {
+    justify-content: center; /* Центрируем только на маленьких экранах */
+		text-align: center !important;
+  }
+}
 
 
 

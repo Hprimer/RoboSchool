@@ -18,12 +18,11 @@ import './girl.css'
 
 function Girl() {
 	return (
-		<div className='girl'><img className='girl_logo' src= {girl} alt='girl'></img>
-			<div className='circle-1'>
-				
-
-				<div className='circle-2'></div>
-			</div> 
+		<div className='girl_block'>
+			<div className='girl'>
+				<img className='girl_img' src= {girl} alt='girl'></img>
+				<div className='circle-1'></div> 
+			</div>
 		</div>
 	)
 }

@@ -1,3 +1,14 @@
+@media (max-width: 768px) {
+	.info_btn_text{
+		left: -110px !important;
+	}	
+}
+@media (max-width: 375px) {
+	.info_btn_text{
+		left: -210px !important;
+	}	
+}
+
 .info_btn{
 	position: absolute;
 	left: 103px;

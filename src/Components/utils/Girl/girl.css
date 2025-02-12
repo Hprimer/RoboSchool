@@ -1,29 +1,52 @@
-.girl{
-	position: absolute;
-	left: 955px;
-	top: 75px;
-}
-.girl_logo{
-	position: absolute;
-	width: 515.52px;
-	height: 917.48px;
-	/* top: 162.52px;
 
-	left: 1065.99px; */
+@media (max-width: 960px) {
+  .btn-desktop {
+    display: none;
+  }
+}
+
+.girl_block{
+	display: flex;
+
+
+}
+.girl{
+	position: relative;
+	width: 100%;
+	/* left: 955px;
+	top: 75px; */
+}
+.girl_img{
+	position: absolute;
+	/* width: 515.52px; */
+	height: 100%;
 	z-index: 1;
 	left: 130px;
-	top: 88px;
+	/* top: 80px; */
+	aspect-ratio: 516 / 918;
 }
 .circle-1{
 	background-color: var(--darkpurple);
-	position: absolute;
-	width: 783px;
-	height: 783px;
+	/* position: absolute; */
+	/* width: 783px;
+	height: 783px; */
 	/* top: 340.63px;
 	left: 924px; */
 
-	top:205px;
-	 
-	border-radius: 100%;
-	border: 90px solid var(--white); /* Толщина и цвет границы */
+	margin-top: 205px;
+	margin-bottom: 45px;
+
+	/* border-radius: 100%;
+	border: 90px solid var(--white); Толщина и цвет границы */
+}
+
+.circle-1 {
+	max-width: 800px;
+	max-height: 800px;
+	min-width: 200px;
+	min-height: 200px;
+  width: 40vw; /* 40% от ширины экрана */
+  height: 40vw; /* Делаем квадрат, который станет кругом */
+  border-radius: 50%;
+  border: 5vw solid var(--white); /* Толщина границы = 5% ширины экрана */
 }

@@ -13,9 +13,9 @@ function Main() {
 			<AboutSchool/>
 			<After_course/>
 
-			{/* <Trainers/>
+			<Trainers/>
 			<Prices/>
-			<Register/> */}
+			<Register/>
 
 
 		</div>
