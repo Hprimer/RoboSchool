@@ -11,12 +11,6 @@ function BtnInfo() {
 	const btnRef2 = useRef(null); // Ссылка на кнопку
 	const btnRef3 = useRef(null); // Ссылка на всю кнопку и текст
 
-	// const toggleDarkMode = () => {// 0 - notActive, 1 - Active 
-	// 	setActiveBtn((currVal) => {
-	// 		return currVal === 0 ? 1 : 0;
-	// 	})
-	// }
-
 	const toggleFixedState = () => {
 		setIsFixed((prev) => !prev);
 		setIsActive(true); // При клике обязательно делаем блок видимым

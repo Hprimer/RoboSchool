@@ -1,6 +1,9 @@
 import React from 'react'
+        
 import './Register.css'
 import PhoneInput from '../utils/PhoneInput/PhoneInput'
+
+
 function Register() {
 	return (
 		<section className='register-block' id='register'>
@@ -14,12 +17,7 @@ function Register() {
 						<input type="text"	className="form-control" 	placeholder="Имя"/>
 					</div>
 					<div class="mb-3">
-						{/* <input 
-							type="tel" 
-							className="form-control" 	
-							placeholder="Телефон"  
-							/> */}
-							<PhoneInput/>
+						<PhoneInput/>
 					</div>
 					<div class="mb-3">
 						<input type="email"	className="form-control" 	placeholder="E-mail"/>
@@ -27,6 +25,7 @@ function Register() {
 					<div className='form_btn'>Оформить заявкy</div>
 					
 				</div>
+				
 
 					
 				

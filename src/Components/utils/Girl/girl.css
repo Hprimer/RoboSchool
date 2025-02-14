@@ -27,17 +27,9 @@
 }
 .circle-1{
 	background-color: var(--darkpurple);
-	/* position: absolute; */
-	/* width: 783px;
-	height: 783px; */
-	/* top: 340.63px;
-	left: 924px; */
-
 	margin-top: 205px;
 	margin-bottom: 45px;
 
-	/* border-radius: 100%;
-	border: 90px solid var(--white); Толщина и цвет границы */
 }
 
 .circle-1 {

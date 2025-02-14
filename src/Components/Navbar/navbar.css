@@ -3,12 +3,13 @@
 	color: var(--white);	
 
 	position: fixed;/* если убрать на "стики" то не будет отображаться изза того что body overflow:hidden*/
-	top: 0;
 	width: 100%;
-	z-index: 1000;
+	z-index: 5;
 
 	margin: 0;
 }
+
+
 
 .logo{
 	font-weight: 700;
@@ -16,7 +17,7 @@
 	margin-top: 30px;
 	font-size: 30px;
 }
-.parts{
+.nav_links{
 	width: 324px;
 	height: 32px;
 	margin-top: 30px;
@@ -25,7 +26,16 @@
 	text-align: center;
 	font-size: 20px;
 }
-.num{
+.nav_links a{
+	transition: color 1.5s ease, background-color .5s ease;
+	border-radius: 18px;
+}
+.nav_links a:hover{
+	
+	background-color: var(--white) !important;
+	color: brown;
+}
+.nav_num{
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 48px;
@@ -34,4 +44,84 @@
 	text-decoration-skip-ink: none;
 	margin-top: 30px;
 
+}
+
+.menu_btn{
+	display: none;
+	cursor: pointer;
+
+	padding: 8px;
+	/* border: solid var(--white);*/
+	border-radius: 10px; 
+	position: absolute;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50px;
+	height: 44px;
+	right: 10px;
+	top: 22px;
+	transition: all .5s ease-in;
+}
+.menu_btn:hover{
+	border-radius: 10px;
+	border: solid var(--red);
+}
+.bar{
+	height: 3px;
+	width: 100%;
+	border-radius: 5px;
+	background-color: var(--white);
+}
+.phone_btn{
+	display: none;
+	cursor: pointer;
+
+	position: absolute;		
+	border-radius: 10px; 
+	width: 50px;
+	height: 44px;
+	right: 70px;
+	top: 22px;
+	transition: all .5s ease;
+}
+.phone_btn:hover{
+	border: solid var(--red);
+}
+
+@media (max-width:992px) {
+	.nav_links{
+		display: none;
+	}	
+	.nav_links.active{
+		width: 100%;
+		margin-bottom: 10px;
+		display: flex;
+	}
+	.menu_btn,.phone_btn{
+		display: flex;
+	}
+	.nav_items{
+		flex-direction: column ;
+	}
+	.nav_num{
+		display: none;
+	}
+	
+}
+@media (max-width:425px) {
+	.nav_links{
+		width: 100%;
+	}
+	.nav_num.active{
+		font-size: 20px;
+		text-align: center;
+		display: inline;
+	}
+	.phone_btn{
+		display: none;
+	}
+	.nav_items{
+		flex-direction: column ;
+	}
+	
 }
