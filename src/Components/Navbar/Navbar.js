@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, {  useRef, useState } from 'react'
 
 import { LuPhone } from "react-icons/lu";
 import './navbar.css'
@@ -6,7 +6,6 @@ import './navbar.css'
 function Navbar() {
 
 	const [isOpen,setIsOpen] = useState(false);
-	const btnRef = useRef(null)
 
 	const toggleMenuBtn = () => {
 		setIsOpen((prev) => !prev);
