@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/RoboSchool/static/css/main.3b3c2b92.css",
+    "main.js": "/RoboSchool/static/js/main.d1ec8df9.js",
+    "static/media/full_girl.png": "/RoboSchool/static/media/full_girl.47e2182e5de407dbb721.png",
+    "static/media/trainer7.jpg": "/RoboSchool/static/media/trainer7.81bd8f6556fb11ca6dbd.jpg",
+    "static/media/trainer3.jpg": "/RoboSchool/static/media/trainer3.2be26d599e54c07f5f5f.jpg",
+    "static/media/trainer2.jpg": "/RoboSchool/static/media/trainer2.b5978490fa18f9f4f582.jpg",
+    "static/media/trainer1.jpg": "/RoboSchool/static/media/trainer1.da618933e99be7caef25.jpg",
+    "static/media/trainer5.jpg": "/RoboSchool/static/media/trainer5.610580d7c81b5b2269e6.jpg",
+    "static/media/trainer4.jpg": "/RoboSchool/static/media/trainer4.e3543e006b8ab46329d8.jpg",
+    "static/media/trainer6.jpg": "/RoboSchool/static/media/trainer6.767962db6f2b85efb69f.jpg",
+    "index.html": "/RoboSchool/index.html",
+    "main.3b3c2b92.css.map": "/RoboSchool/static/css/main.3b3c2b92.css.map",
+    "main.d1ec8df9.js.map": "/RoboSchool/static/js/main.d1ec8df9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b3c2b92.css",
+    "static/js/main.d1ec8df9.js"
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "name": "robo-school",
   "version": "0.1.0",
+  "homepage": "https://hprimer.github.io/RoboSchool",
   "private": true,
   "dependencies": {
     "@react-input/mask": "^2.0.4",
